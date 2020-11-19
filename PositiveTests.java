@@ -1,1 +1,1 @@
-Assert.assertTrue(driver.findElements(ERROR_MASSAGES_LOCATOR).size() == 0);
+Assert.assertTrue(driver.findElements(By.xpath("//li[contains(text(),'Please enter a valid e-mail')]")).size() > 0);
